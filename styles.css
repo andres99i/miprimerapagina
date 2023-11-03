@@ -1,0 +1,133 @@
+* {
+  margin: 2px;
+  /* width: 100%; */
+}
+.encabezado-contenedor {
+  background-color: rgba(137, 43, 226, 0.24);
+  display: flex;
+  justify-content: space-between;
+  font-family: "Lato", sans-serif;
+  /* position: fixed; */
+  width: 100%;
+}
+.acerca-de {
+  padding: 10px;
+  margin: 10px;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+}
+h2 {
+  text-align: center;
+}
+.encabezado {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  .encabezado-contenedor {
+    background-color:bisque;
+    position: fixed;
+    top:0px;
+    width: 100%;
+  }
+  .seccion-principal{
+    top: 100px;
+  }
+  .encabezado {
+    display: none;
+  }
+}
+.logo {
+  color:rgb(223, 96, 6);
+  margin: 4px 6px;
+  display: flex;
+  justify-content: flex-start;
+}
+.button-nav {
+  border: solid white 1px;
+  margin: 1px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.seccion-principal {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+}
+.imagen-1 {
+  top: auto;
+  right: 0%;
+  width: 20%;
+  margin: 21px;
+}
+.acerca-imagen {
+  background-color: rgba(139, 0, 139, 0.514);
+  display: flex;
+  justify-content: center;
+}
+.acerca-imagen:hover {
+  color: blue;
+  background-color: orange;
+}
+ul {
+  list-style-type: none;
+}
+
+.lista-hor {
+  display: flex;
+  /* justify-content: space-around ; */
+}
+.seccion-2 {
+  display: flex;
+  justify-content: center;
+  border: red;
+}
+.imagen-2 {
+  width: 90%;
+}
+.contenedor-articulos {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  background-color: rgba(85, 107, 47, 0.616);
+  font-family: "Lato", sans-serif;
+}
+.articulo {
+  width: 33%;
+  position: center;
+  display: block;
+  justify-content: center;
+}
+.articulo:hover {
+  background-color: rgba(127, 255, 212, 0.63);
+  transform: translateY(-15px);
+}
+.imagen-articulo {
+  width: 90%;
+}
+.seccion-1 {
+  border: solid rgba(0, 0, 0, 0.589) 2px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  font-family: "Lato", sans-serif;
+}
+@media (max-width: 768px) {
+  .seccion-1 {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.footer {
+  background-color: rgb(51, 50, 50);
+  display: flex;
+}
+.sinlogo {
+  justify-content: space-around;
+}
+.flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  
+}
